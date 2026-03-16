@@ -1,0 +1,23 @@
+{
+    "Name": "Guide to the construction and use of an adaptive optics two-photon microscope with direct wavefront sensing",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Two-photon microscopy, combined with appropriate optical labeling, has enabled the study of structure and function throughout animals and their organ systems, especially nervous systems. This methodology enables, for example, the measurement and tracking of sub-micrometer structures within brain cells, the spatio-temporal mapping of spikes in individual neurons, and the spatio-temporal mapping of transmitter release in individual synapses. Yet the spatial resolution of two-photon microscopy rapidly degrades as imaging is attempted at depths more than a few scattering lengths into tissue, i.e., below the superficial layers that constitute the top 300 to 400\u00a0\u00b5m of neocortex. To obviate this limitation, we measure the wavefront of the guide star at the focus of the excitation beam and utilize adaptive optics that alters the incident wavefront to achieve an improved focal volume. We describe the construction, calibration, and operation of a two-photon microscope that incorporates adaptive optics to restore diffraction-limited resolution throughout the nearly 900\u00a0\u00b5m depth of mouse cortex. Our realization utilizes a guide star formed by excitation of red-shifted dye within the blood serum to directly measure the wavefront. We incorporate predominantly commercial optical, optomechanical, mechanical, and electronic components; computer aided design models of the exceptional custom components are supplied. The resultant adaptive-optics two-photon microscope is modular and allows for expanded imaging and optical excitation capabilities. We demonstrate our methodology in mouse neocortex by imaging the morphology of somatostatin-expressing neurons that lie 700 \u00b5m beneath the pia, calcium dynamics of layer 5b projection neurons, and thalamocortical glutamate transmission to L4 neurons.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Klienfeld, David",
+        "Yao, Pantong",
+        "Liu, Rui",
+        "Broginni, Thomas",
+        "Thunemann, Martin"
+    ],
+    "License": "CC0-1.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
